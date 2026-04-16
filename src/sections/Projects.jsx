@@ -16,7 +16,7 @@ const projects = [
       "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
     image: "/projects/project2.png",
     tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
+    link: "https://ecommerce-mern-cfr6.vercel.app/",
     github: "#",
   },
   {
