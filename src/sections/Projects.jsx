@@ -6,7 +6,7 @@ const projects = [
     description:
       "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
     image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
+    tags: ["React", "JavaScript", "NodeJS", "Tailwind"],
     link: "https://finance-tracker-nine-alpha-73.vercel.app/",
     github: "#",
   },
@@ -15,7 +15,7 @@ const projects = [
     description:
       "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
     image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
+    tags: ["Next.js", "Khalti", "MongoDB", "Tailwind"],
     link: "https://ecommerce-mern-cfr6.vercel.app/",
     github: "#",
   },
@@ -29,12 +29,12 @@ const projects = [
     github: "#",
   },
   {
-    title: "Project Management Tool",
+    title: "Queue Management Application",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
+      "A real-time virtual queuing solution designed to replace physical lines with a digital check-in system. It allows businesses to manage customer flow while providing users with live updates on their position in the queue.",
     image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
+    tags: ["React", "JavaScript", "NodeJS", "Tailwind"],
+    link: "https://2-queue-management-system.vercel.app/",
     github: "#",
   },
 ];
