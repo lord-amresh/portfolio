@@ -2,30 +2,31 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Techno | Full-Stack MERN E-Commerce Platform",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "JavaScript", "NodeJS", "Tailwind"],
-    link: "https://finance-tracker-nine-alpha-73.vercel.app/",
-    github: "#",
-  },
-  {
-    title: "E-Commerce Platform",
-    description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
+      "Engineered a comprehensive, end-to-end e-commerce solution utilizing the MERN stack (MongoDB, Express, React, Node.js). Developed a robust RESTful API to manage complex data relations, including product inventories, user profiles, and order histories. Integrated JWT-based authentication and a secure third-party payment gateway to ensure a safe and seamless checkout experience for users.",
     image: "/projects/project2.png",
     tags: ["Next.js", "Khalti", "MongoDB", "Tailwind"],
     link: "https://ecommerce-mern-cfr6.vercel.app/",
     github: "#",
   },
   {
-    title: "AI Writing Assistant",
+    title: "SpendWise | Dynamic Expense Tracking Application",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
+      "Architected a sleek, data-driven financial management tool using React to help users visualize and control personal spending. Developed an interactive dashboard that translates raw transaction data into actionable insights through dynamic charting and categorized breakdowns. The application prioritizes a friction-less user experience with instant UI feedback and persistent data handling for reliable long-term tracking.",
+    image: "/projects/project1.png",
+    tags: ["React", "JavaScript", "NodeJS", "Tailwind"],
+    link: "https://finance-tracker-nine-alpha-73.vercel.app/",
+    github: "#",
+  },
+  
+  {
+    title: "Productivity Pro | React Task Management App",
+    description:
+      "Developed a high-performance, responsive Task Management application using React and Tailwind CSS. Implemented persistent data storage via Local Storage and integrated a dynamic filtering system to categorize tasks by completion status. Focused on State Management and optimized component rendering to ensure a seamless, zero-lag user experience across mobile and desktop devices.",
     image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
+    tags: ["React", "JavaScript", "NodeJS", "Tailwind"],
+    link: "https://to-do-app-psi-bice.vercel.app/",
     github: "#",
   },
   {
