@@ -34,7 +34,7 @@ export const Navbar = () => {
           href="#"
           className="text-xl font-bold tracking-tight hover:text-primary"
         >
-          PM<span className="text-primary">.</span>
+          AC<span className="text-primary">.</span>
         </a>
 
         {/* Desktop Nav */}
@@ -54,7 +54,9 @@ export const Navbar = () => {
 
         {/* CTA Button */}
         <div className="hidden md:block">
-          <Button size="sm">Contact Me</Button>
+          <Button size="sm" onClick={() => (window.location.href = "#contact")} >
+            Contact Me
+          </Button>
         </div>
 
         {/* Mobile Menu Button */}

@@ -69,7 +69,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • React Specialist
+                Fullstack Developer • React Specialist
               </span>
             </div>
 
@@ -93,13 +93,14 @@ export const Hero = () => {
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-              <Button size="lg">
+              <Button size="lg" onClick={() => (window.location.href = "#contact")}>
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBorderButton>
-                <Download className="w-5 h-5" />
-                Download CV
-              </AnimatedBorderButton>
+              <div onClick={() => window.open("/Amresh_Chaurasia_Resume.pdf", "_blank")}>
+                <AnimatedBorderButton size="lg" variant="outline">
+                  Download CV
+                </AnimatedBorderButton>
+              </div>
             </div>
 
             {/* Social Links */}
