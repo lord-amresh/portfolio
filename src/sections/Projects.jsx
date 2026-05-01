@@ -14,7 +14,7 @@ const projects = [
     title: "StudyNp Quiz | Dynamic FullStack Quiz Application",
     description:
       "A high-performance SaaS-based quiz application built with React, Node.js, and MongoDB. Key technical implementations include role-based access control (RBAC), secure authentication, and a custom-built Admin Dashboard for payment verification. I focused on clean state management and responsive UI using Tailwind CSS to ensure a seamless experience across all devices. Built with the MERN stack to help students prepare for technical exams and coding interviews.",
-    image: "/projects/project1.png",
+    image: "/projects/project5.jpg",
     tags: ["MongoDB", "Express","React", "JavaScript", "NodeJS", "Tailwind"],
     link: "https://quiz.amresh.com.np/",
     github: "#",
