@@ -11,6 +11,14 @@ const projects = [
     github: "#",
   },
     {
+    title: "SkillForge LMS | Comprehensive E-Learning Platform",
+    description: "A custom-built Learning Management System (LMS) developed with the MERN stack. Key features include dedicated student and admin dashboards, robust role-based access control (RBAC), and integrated payment processing via Khalti alongside manual verification for local digital wallets. Advanced functionalities feature a reusable React component for distraction-free YouTube streaming, a rich-text editor for course content management, and a dynamic student leaderboard. Engineered specifically to assist students in Nepal with technical interview preparation.",
+    image: "/projects/lms-project.jpg",
+    tags: ["MongoDB", "Express", "React", "NodeJS", "Khalti API"],
+    link: "https://course.amresh.com.np/",
+    github: "#",
+  },
+    {
     title: "StudyNp Quiz | Dynamic FullStack Quiz Application",
     description:
       "A high-performance SaaS-based quiz application built with React, Node.js, and MongoDB. Key technical implementations include role-based access control (RBAC), secure authentication, and a custom-built Admin Dashboard for payment verification. I focused on clean state management and responsive UI using Tailwind CSS to ensure a seamless experience across all devices. Built with the MERN stack to help students prepare for technical exams and coding interviews.",
